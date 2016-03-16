@@ -14,7 +14,7 @@
             'GCC_ENABLE_CPP_EXCEPTIONS': 'YES',
             'OTHER_CFLAGS': [ '-O3', '-march=native', '-w', '-mmacosx-version-min=10.7' ],
             'OTHER_CPLUSPLUSFLAGS' : ['-Wno-c++11-narrowing', '-std=c++11', '-stdlib=libc++'],
-            'OTHER_LDFLAGS': ['-stdlib=libc++'],
+            'OTHER_LDFLAGS': [],
           }
         }
       ],
